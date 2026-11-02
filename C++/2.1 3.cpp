@@ -22,7 +22,7 @@ double calc(double a, double b, char op) {
         case '*': return a * b;
         case '/':
             if (b == 0) {
-                cout << "? ´íÎó: ³ýÊý²»ÄÜÎª 0!" << endl;
+                cout << "? é”™è¯¯: é™¤æ•°ä¸èƒ½ä¸º 0!" << endl;
                 return 0.0;
             }
             return a / b;
@@ -40,18 +40,18 @@ int main() {
     double num1, num2;
     char op;
     
-    cout << "=== ¶à¹¦ÄÜÊýÑ§¼ÆËãÆ÷ ===" << endl;
-    cout << "ÇëÊäÈëÁ½¸öÊý×ÖºÍÔËËã·ûºÅ (¿Õ¸ñ·Ö¸ô): ";
+    cout << "=== å¤šåŠŸèƒ½æ•°å­¦è®¡ç®—å™¨ ===" << endl;
+    cout << "è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—å’Œè¿ç®—ç¬¦å· (ç©ºæ ¼åˆ†éš”): ";
     cin >> num1 >> num2 >> op;
 
-    cout << "\n--- ÊýÑ§ÔËËã½á¹û ---" << endl;
-    cout << "1. µÚÒ»¸öÊý×ÖµÄÆ½·½: " << square(num1) << endl;
-    cout << "2. µÚÒ»¸öÊý×ÖµÄÄ¬ÈÏ³ËÃÝ(2´Î·½): " << power(num1) << endl;
-    cout << "3. µÚÒ»¸öÊý×ÖµÄ3´ÎÃÝ: " << power(num1, 3) << endl;
+    cout << "\n--- æ•°å­¦è¿ç®—ç»“æžœ ---" << endl;
+    cout << "1. ç¬¬ä¸€ä¸ªæ•°å­—çš„å¹³æ–¹: " << square(num1) << endl;
+    cout << "2. ç¬¬ä¸€ä¸ªæ•°å­—çš„é»˜è®¤ä¹˜å¹‚(2æ¬¡æ–¹): " << power(num1) << endl;
+    cout << "3. ç¬¬ä¸€ä¸ªæ•°å­—çš„3æ¬¡å¹‚: " << power(num1, 3) << endl;
     
     double res = calc(num1, num2, op);
     if (!(op == '/' && num2 == 0)) {
-        cout << "4. ËÄÔòÔËËã(" << op << "): " << num1 << " " << op << " " << num2 << " = " << res << endl;
+        cout << "4. å››åˆ™è¿ç®—(" << op << "): " << num1 << " " << op << " " << num2 << " = " << res << endl;
     }
     cout << "--------------------\n" << endl;
 
