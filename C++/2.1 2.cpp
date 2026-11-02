@@ -19,14 +19,14 @@ int main() {
     const int MAX_LENGTH = 1000;
     char str[MAX_LENGTH];
 
-    cout << "¡¾ÔªÒô×ÖÄ¸Í³¼ÆÆ÷¡¿" << endl;
-    cout << "ÇëÊäÈëÒ»ÐÐÓ¢ÎÄ¾ä×Ó: ";
+    cout << "ã€å…ƒéŸ³å­—æ¯ç»Ÿè®¡å™¨ã€‘" << endl;
+    cout << "è¯·è¾“å…¥ä¸€è¡Œè‹±æ–‡å¥å­: ";
     cin.getline(str, MAX_LENGTH); 
 
     int vowelCount = countVowels(str);
     
     cout << "----------------------------------" << endl;
-    cout << "·ÖÎöÍê±Ï£¡¸Ã¾ä×ÓÖÐ°üº¬µÄÔªÒô×ÖÄ¸×ÜÊýÎª: [ " << vowelCount << " ] ¸ö" << endl;
+    cout << "åˆ†æžå®Œæ¯•ï¼è¯¥å¥å­ä¸­åŒ…å«çš„å…ƒéŸ³å­—æ¯æ€»æ•°ä¸º: [ " << vowelCount << " ] ä¸ª" << endl;
     cout << "----------------------------------" << endl;
 
     system("pause");
