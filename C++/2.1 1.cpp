@@ -6,22 +6,22 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "ÇëÊäÈëÑ§ÉúÈËÊý: ";
+    cout << "è¯·è¾“å…¥å­¦ç”Ÿäººæ•°: ";
     cin >> n;
     
-    cout << "\n================ Ñ§Éú³É¼¨µ¥ ================" << endl;
-    cout << left << setw(12) << "ÐÕÃû" 
-         << setw(10) << "ÓïÎÄ" 
-         << setw(10) << "ÊýÑ§" 
-         << setw(10) << "Ó¢Óï" 
-         << setw(10) << "Æ½¾ù·Ö" << endl;
+    cout << "\n================ å­¦ç”Ÿæˆç»©å• ================" << endl;
+    cout << left << setw(12) << "å§“å" 
+         << setw(10) << "è¯­æ–‡" 
+         << setw(10) << "æ•°å­¦" 
+         << setw(10) << "è‹±è¯­" 
+         << setw(10) << "å¹³å‡åˆ†" << endl;
     cout << "--------------------------------------------" << endl;
 
     for (int i = 0; i < n; i++) {
         string name;
         double chinese, math, english;
         
-        cout << "Â¼ÈëµÚ " << i + 1 << " Î»Í¬Ñ§ (¸ñÊ½: ÐÕÃû Óï Êý Ó¢): ";
+        cout << "å½•å…¥ç¬¬ " << i + 1 << " ä½åŒå­¦ (æ ¼å¼: å§“å è¯­ æ•° è‹±): ";
         cin >> name >> chinese >> math >> english;
 
         double avg = (chinese + math + english) / 3.0;
